@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic News Webpage</title>
-    
+    <title>Basic News Webpage Layout</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">News Portal</div>
+
+    <header class="header">
+        <h1>Breaking News Today</h1>
+    </header>
+
     <div class="latest-news-section">
-        <h3>Latest News</h3>
+        <h2>Latest News</h2>
         <ul>
-            <li>Breaking: Market sees major surge</li>
-            <li>Sports: Local team wins championship</li>
-            <li>Weather: Storm expected this weekend</li>
+            <li>Breaking: Major Earthquake Strikes City</li>
+            <li>Government Announces New Policy for Green Energy</li>
+            <li>Sports: Local Team Wins National Championship</li>
         </ul>
     </div>
+
     <div class="pictorial-news-section">
-        <h3>Pictorial News</h3>
-        <img src="image_one.jpg" alt="News Image One">
-        <img src="image_two.jpg" alt="News Image Two">
-        <img src="image_three.jpg" alt="News Image Three">
+        <h2>Pictorial News</h2>
+        <div class="news-images">
+            <img src="Image_one.jpg" alt="Image One" class="news-image">
+            <img src="Image_two.jpg" alt="Image Two" class="news-image">
+            <img src="Image_three.jpg" alt="Image Three" class="news-image">
+        </div>
     </div>
+
 </body>
 </html>
